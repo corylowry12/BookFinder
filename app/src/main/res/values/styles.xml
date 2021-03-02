@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/lightBackground</item>
+        <item name="textColor">@color/lightText</item>
+        <item name="android:textColor">@color/lightText</item>
+        <item name="android:itemBackground">@color/lightBackground</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">#ffffff</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:fontFamily">@font/productsansnormal</item>
+        <item name="switchStyle">@style/Widget.MaterialComponents.CompoundButton.Switch</item>
+    </style>
+    <style name="AMOLED" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/darkBackground</item>
+        <item name="textColor">@color/darkThemeTextColor</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">#000000</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="android:itemBackground">#2C353A</item>
+        <item name="popupMenuBackground">@color/menuColor</item>
+        <item name="android:fontFamily">@font/productsansnormal</item>
+        <item name="android:textColor">@color/darkThemeTextColor</item>
+    </style>
+</resources>

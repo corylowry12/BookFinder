@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Book Finder</string>
+    <string name="what_are_you_thinking_about">What are you thinking about?</string>
+    <string name="search">Search</string>
+    <string name="welcome_to_book_finder">Welcome to Book Finder</string>
+    <string name="clear">Clear</string>
+    <string name="cant_be_thinking">YOU CAN\'T BE THINKING ABOUT NOTHING!</string>
+    <string name="toggle_dark_mode">Toggle Dark Mode</string>
+</resources>
